@@ -7,9 +7,9 @@ import project6 from "../assets/projects/portfolio.png";
 import gulfproject from "../assets/projects/gulf.png";
 import snowflake from "../assets/projects/snowflake.png";
 import gurukulam from "../assets/projects/gurukulam.png";
-export const HERO_CONTENT = `Full Stack Developer with 1+ year of experience building robust, scalable, and user-focused web and mobile applications. Passionate about solving real-world problems, delivering innovative solutions, and continuously learning to grow professionally.`;
+export const HERO_CONTENT = `Full Stack Developer with 2+ year of experience building robust, scalable, and user-focused web and mobile applications. Passionate about solving real-world problems, delivering innovative solutions, and continuously learning to grow professionally.`;
 
-export const ABOUT_TEXT = `Hi, I’m Sheik Rizwan, a Full Stack Developer with 1+ year of experience designing and delivering enterprise web, mobile, and Zoho ecosystem applications. Proficient in Java (Spring Boot), React.js, React Native, Flutter, and Zoho CRM integrations. I enjoy creating efficient software solutions, collaborating in dynamic teams, and continuously learning to enhance my skills and deliver high-quality results. My focus is on building applications that are not only functional but also user-friendly and scalable.`;
+export const ABOUT_TEXT = `Hi, I’m Sheik Rizwan, a Full Stack Developer with 2+ year of experience designing and delivering enterprise web, mobile, and Zoho ecosystem applications. Proficient in Java (Spring Boot), React.js, React Native, Flutter, and Zoho CRM integrations. I enjoy creating efficient software solutions, collaborating in dynamic teams, and continuously learning to enhance my skills and deliver high-quality results. My focus is on building applications that are not only functional but also user-friendly and scalable.`;
 
 // Projects section
 export const PROJECTS = [
@@ -95,14 +95,13 @@ export const ACCESS_KEY = '7b22c50e-9d41-44ee-a12a-aa08eef4b697';
 
 export const EXPERIENCES = [
   {
-    year: "Mar 2025 – Present",
+    year: "Aug 2024 – Present",
     role: "Software Developer",
     company: "Tiara Consulting Services India Pvt. Ltd.",
     description: "Architected full-stack enterprise applications and bidirectional sync extensions. Engineered secure RESTful APIs with JWT-based authentication and configured real-time data sync across web and mobile platforms.",
     technologies: ["Spring Boot", "React.js", "React Native", "MySQL", "Zoho CRM", "Hibernate"],
   },
   {
-    year: "Mar 2026 – May 2026",
     role: "Mobile App Developer (Freelance)",
     company: "Vasavi Gurukulam Shevapet",
     description: "Developed and deployed a Flutter Android app for managing academic, administrative, and spiritual activities. Built role-based UI screens for seamless activity management.",
