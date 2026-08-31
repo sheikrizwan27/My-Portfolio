@@ -7,12 +7,22 @@ import project6 from "../assets/projects/portfolio.png";
 import gulfproject from "../assets/projects/gulf.png";
 import snowflake from "../assets/projects/snowflake.png";
 import gurukulam from "../assets/projects/gurukulam.png";
+import mobilefixture from "../assets/projects/mobilefixture.png";
 export const HERO_CONTENT = `Full Stack Developer with 2+ year of experience building robust, scalable, and user-focused web and mobile applications. Passionate about solving real-world problems, delivering innovative solutions, and continuously learning to grow professionally.`;
 
 export const ABOUT_TEXT = `Hi, I’m Sheik Rizwan, a Full Stack Developer with 2+ year of experience designing and delivering enterprise web, mobile, and Zoho ecosystem applications. Proficient in Java (Spring Boot), React.js, React Native, Flutter, and Zoho CRM integrations. I enjoy creating efficient software solutions, collaborating in dynamic teams, and continuously learning to enhance my skills and deliver high-quality results. My focus is on building applications that are not only functional but also user-friendly and scalable.`;
 
 // Projects section
 export const PROJECTS = [
+  {
+    title: "Mobile Fixture Repair & Booking Management System",
+    image: mobilefixture,
+    description:
+      "Built a full-stack web app to manage mobile repairs, service bookings, and vendors. Designed a fast, responsive user interface using React.js (Vite) and Framer Motion, featuring dynamic form validation with Formik. Integrated frontend components with RESTful APIs to handle JWT authentication and user sessions.",
+    technologies: ["React.js", "Vite", "Framer Motion", "Formik", "REST APIs", "JWT"],
+    livePreview: "https://mobilefixturetirunelveli.com/",
+
+  },
   {
     title: "Gulf Oil Lubricants - Distributor & Warranty Management System",
     image: gulfproject,
@@ -106,5 +116,11 @@ export const EXPERIENCES = [
     company: "Vasavi Gurukulam Shevapet",
     description: "Developed and deployed a Flutter Android app for managing academic, administrative, and spiritual activities. Built role-based UI screens for seamless activity management.",
     technologies: ["Flutter", "Dart", "Android"],
+  },
+  {
+    role: "Full Stack Developer (Freelance)",
+    company: "Mobile Fixture Repair & Booking Management System",
+    description: "Built a full-stack web app to manage mobile repairs, service bookings, and vendors. Designed a fast, responsive user interface using React.js (Vite) and Framer Motion, featuring dynamic form validation with Formik. Integrated frontend components with RESTful APIs to handle JWT authentication and user sessions.",
+    technologies: ["React.js", "Vite", "Framer Motion", "Formik", "REST APIs", "JWT"],
   }
 ];
